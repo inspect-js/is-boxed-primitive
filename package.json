@@ -1,0 +1,27 @@
+{
+	"name": "is-boxed-primitive",
+	"version": "0.0.0",
+	"description": "Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.",
+	"main": "./implementation",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/is-boxed-primitive.git"
+	},
+	"keywords": [
+		"util",
+		"primitive",
+		"boxed",
+		"autobox",
+		"autoboxing",
+		"is"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/is-boxed-primitive/issues"
+	},
+	"homepage": "https://github.com/ljharb/is-boxed-primitive#readme"
+}
