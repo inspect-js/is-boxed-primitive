@@ -35,5 +35,10 @@
 		"tape": "^4.9.1"
 	},
 	"dependencies": {
+		"is-bigint": "^1.0.0",
+		"is-boolean-object": "^1.0.0",
+		"is-number-object": "^1.0.3",
+		"is-string": "^1.0.4",
+		"is-symbol": "^1.0.2"
 	}
 }
