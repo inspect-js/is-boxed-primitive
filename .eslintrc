@@ -1,0 +1,13 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"globals": {
+		"BigInt": true,
+	},
+
+	"rules": {
+		"new-cap": [2, { "capIsNewExceptions": ["BigInt"] }],
+	},
+}
