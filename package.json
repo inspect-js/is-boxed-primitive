@@ -1,9 +1,10 @@
 {
 	"name": "is-boxed-primitive",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.",
 	"main": "./implementation",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"tests-only": "node test",
@@ -32,6 +33,7 @@
 		"eslint": "^5.6.0",
 		"has-symbols": "^1.0.0",
 		"object-inspect": "^1.6.0",
+		"safe-publish-latest": "^1.1.2",
 		"tape": "^4.9.1"
 	},
 	"dependencies": {
