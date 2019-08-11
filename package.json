@@ -1,43 +1,44 @@
 {
-	"name": "is-boxed-primitive",
-	"version": "1.0.0",
-	"description": "Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.",
-	"main": "./implementation",
-	"scripts": {
-		"prepublish": "safe-publish-latest",
-		"lint": "eslint .",
-		"pretest": "npm run lint",
-		"tests-only": "node test",
-		"test": "npm run tests-only",
-		"posttest": "npx aud"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ljharb/is-boxed-primitive.git"
-	},
-	"keywords": [
-		"util",
-		"primitive",
-		"boxed",
-		"autobox",
-		"autoboxing",
-		"is"
-	],
-	"author": "Jordan Harband <ljharb@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/ljharb/is-boxed-primitive/issues"
-	},
-	"homepage": "https://github.com/ljharb/is-boxed-primitive#readme",
-	"devDependencies": {
-		"@ljharb/eslint-config": "^14.0.2",
-		"eslint": "^6.1.0",
-		"has-symbols": "^1.0.0",
-		"object-inspect": "^1.6.0",
-		"safe-publish-latest": "^1.1.2",
-		"tape": "^4.11.0"
-	},
-	"dependencies": {
-		"which-boxed-primitive": "^1.0.1"
-	}
+  "name": "is-boxed-primitive",
+  "version": "1.0.0",
+  "description": "Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.",
+  "main": "./implementation",
+  "scripts": {
+    "prepublish": "not-in-publish || safe-publish-latest",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "tests-only": "node test",
+    "test": "npm run tests-only",
+    "posttest": "npx aud"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljharb/is-boxed-primitive.git"
+  },
+  "keywords": [
+    "util",
+    "primitive",
+    "boxed",
+    "autobox",
+    "autoboxing",
+    "is"
+  ],
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ljharb/is-boxed-primitive/issues"
+  },
+  "homepage": "https://github.com/ljharb/is-boxed-primitive#readme",
+  "devDependencies": {
+    "@ljharb/eslint-config": "^14.0.2",
+    "eslint": "^6.1.0",
+    "has-symbols": "^1.0.0",
+    "in-publish": "^2.0.0",
+    "object-inspect": "^1.6.0",
+    "safe-publish-latest": "^1.1.2",
+    "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "which-boxed-primitive": "^1.0.1"
+  }
 }
