@@ -37,6 +37,6 @@
 		"tape": "^4.11.0"
 	},
 	"dependencies": {
-		"which-boxed-primitive": "^1.0.0"
+		"which-boxed-primitive": "^1.0.1"
 	}
 }
