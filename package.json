@@ -36,7 +36,8 @@
 	"homepage": "https://github.com/ljharb/is-boxed-primitive#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
-		"auto-changelog": "^1.16.3",
+		"aud": "^1.1.0",
+		"auto-changelog": "^2.0.0",
 		"eslint": "^6.8.0",
 		"has-symbols": "^1.0.1",
 		"in-publish": "^2.0.1",
