@@ -1,6 +1,6 @@
 {
 	"name": "is-boxed-primitive",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.",
 	"main": "./implementation",
 	"scripts": {
