@@ -36,16 +36,16 @@
 	},
 	"homepage": "https://github.com/ljharb/is-boxed-primitive#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.5.0",
-		"aud": "^1.1.3",
+		"@ljharb/eslint-config": "^17.6.0",
+		"aud": "^1.1.5",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.19.0",
-		"has-symbols": "^1.0.1",
+		"eslint": "^7.25.0",
+		"has-symbols": "^1.0.2",
 		"in-publish": "^2.0.1",
 		"nyc": "^10.3.2",
-		"object-inspect": "^1.9.0",
+		"object-inspect": "^1.10.2",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.1.1"
+		"tape": "^5.2.2"
 	},
 	"dependencies": {
 		"which-boxed-primitive": "^1.0.2"
