@@ -4,7 +4,8 @@
 	"description": "Is this value a boxed primitive? Shim for node's util.isBoxedPrimitive.",
 	"main": "./implementation",
 	"scripts": {
-		"prepublish": "not-in-publish || safe-publish-latest",
+		"prepublishOnly": "safe-publish-latest",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
 		"tests-only": "nyc tape 'test/**/*.js'",
